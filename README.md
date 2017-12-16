@@ -22,7 +22,6 @@ Git Tutorial
     > git config --list
 
     // 커밋
-    > git commit -m "README 수정"  // 수정된 것들 모두 커밋
     > git commit -a -m "README 수정"  // 추가,수정된 것들 모두 커밋
 
     // 로그 확인
@@ -35,12 +34,16 @@ Git Tutorial
     origin  https://github.com/Mosframe/Git-Tutorial.git (fetch)
     origin  https://github.com/Mosframe/Git-Tutorial.git (push)
 
+    // 원격지 추가하기
+    > git remote add origin https://github.com/Mosframe/Git-Tutorial.git
+
     // 푸시하기
     > git push origin master
 
     // 새로운 파일 추가
     > git add "파일명"
     > git add . // 모두 추가
+
 
 
 
