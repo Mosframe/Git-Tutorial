@@ -44,6 +44,9 @@ Git Tutorial
     > git add "파일명"
     > git add . // 모두 추가
 
+    // 풀
+    > git pull origin master
+
 
 
 
